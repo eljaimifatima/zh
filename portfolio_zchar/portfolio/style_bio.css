@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+  }
+  
+  header {
+    /* background-color: #222; */
+    background-color: #000;
+    padding: 20px;
+    font-family: 'Times New Roman';
+  }
+  .profile-picture1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  h1, h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  nav {
+    margin-top: 60px;
+    font-family: Garamond;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .nav-link:hover {
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* Add a line under the text when hovered */
+    /* text-decoration: underline; */
+  }
+
+/* Main content styles */
+main {
+    margin-top: 50px;
+}
+
+.bio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+}
+.bio-title {
+    font-family: garamond;
+}
+
+.bio-text {
+    margin-top: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.white-line {
+    background-color: white;
+    height: 1px;
+    margin: 20px 0;
+    border: none;
+}
+
+.contact-details {
+    margin-top: 20px;
+    font-family: Arial;
+}
+
+.contact-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 30px;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.quote {
+    font-style: italic;
+    /* font-family: Garamond; */
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
